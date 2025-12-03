@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studrz</title>
+    <link rel="stylesheet" href="messtyles.css">
+    <script src="controles.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td id="case1">
+                <form action="acc.php" method="post" onsubmit="return verif()">
+                    <img src="studrz.png" alt=""><br>
+                    <h3>LOG IN</h3>
+                    <label for="">YOUR CIN OR EMAIL *</label><br>
+                    <input type="email" name="eml" id="eml" placeholder="Email Adresse" required><br>
+                    <span id="place1"></span><br>
+                    <label for="">YOUR PASSWORD *</label><br>
+                    <input type="password" name="mdp" id="mdp" placeholder="***" required><br>
+                    <span id="place2"></span><br>
+                    <input type="checkbox"  name="" id="r">Remember me <br>
+                    <input type="submit" value="LOG IN" name="" id="bt"><br>
+                    <a href="pass.html">forgot your password?</a><br>
+                    <p>You don't have un account?<a href="signup.html"> Sign up now.</a></p>
+                    
+                </form>
+            </td>
+                <td id="case2">
+                <p id="p1">-All your student life in one place</p><br>
+                <h1>From Files to friends,from Notes to Networks</h1>
+                <p id="p2">studrz.com is the all-in-one hub for students to share files,talk with peers, and find 
+                    everything needed for studies and beyond.Connect,collaborate,and grow together.
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

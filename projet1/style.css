@@ -1,0 +1,134 @@
+#countdown {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(230, 230, 56);
+    background: #00c7d9;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+#countdown span {
+    font-size: 2.2rem;
+}
+#he1{
+    background-color: #00c7d9;
+    text-align: center;
+    padding: 10px;
+    height: 60px;
+}
+#p1{
+    font-size: 20px;
+    color: white;
+    margin: 0px;
+}
+#img1{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 900px;
+}
+#he2{
+    padding: 5px;
+    height: 50px;
+    background-color: rgb(23, 23, 64);
+}
+#nav1{
+    float: right;
+    margin-top: 20x;
+    font: bold 20px 'arial';
+
+}
+.a1{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    color: #00c7d9;
+    font-weight: bold;
+}
+#p2{
+    color: yellow;
+    font-size: 20px;
+    text-align: center; 
+}
+span{
+    font-weight: bold;
+}
+#bt1{
+    width: 130px;
+    height: 40px;
+    background-color: #001F3F;
+    border-radius: 30px;
+    color: #00c7d9;
+    border-color: yellow;
+    font-size: 20px;
+    margin-left:600px ;
+    padding: 5px;
+    margin-bottom: 20px;
+    transition: all 2s;
+}
+#img2{
+    width:1556px;
+    height: 400px;
+}
+section{
+    float: left;
+}
+aside{
+    float: right;
+    height:550px;
+
+}
+.point{
+    font-size: 110px;
+    color: yellow;
+    margin: 0px;
+    padding: 0px;
+    transition: all 2s;
+    text-decoration: none;
+    box-shadow: none;
+    border-bottom: none;
+    display:block;
+    line-height: 0.2;
+    height: 50px;
+}
+#b1{
+    background: linear-gradient(#003A66, #001F3F);
+}
+td{
+    width: 120px;
+    height: 30px;
+}
+#faq{
+    width: 40px;
+    height: 30px;
+}
+td a{
+    transition: all 2s;
+}
+td a:hover{
+    transform: scale(1.2);
+    border-color: black;
+}
+#bt1:hover{
+    border-radius: 0px;
+}
+.point:hover{
+    color: grey;
+}
+aside a{
+    text-decoration: none;
+}
+iframe{
+    width: 1800px;
+    height: 1000px;
+}
+h1{
+    color: #00c7d9;
+    font-size: 70px;
+    text-align: center;
+}
+#b2{
+    background-color: #001F3F;
+}
